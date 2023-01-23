@@ -4,7 +4,8 @@ function PokemonCard({ url, name }) {
 
   return (
     <div>
-        pokemon card
+      <h1>{name}</h1>
+      <img src={url} />
     </div>
   );
 }
